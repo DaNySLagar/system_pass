@@ -1,0 +1,197 @@
+@page{
+    margin: 3cm 0.5cm 1.5cm 0.5cm;
+}
+
+@font-face{
+    font-family:"Montserrat";
+    src: url('{{ storage_path("fonts\Montserrat-Light.ttf") }}') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face{
+    font-family:"Montserrat";
+    src: url('{{ storage_path("fonts/Montserrat-Regular.ttf") }}') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face{
+    font-family:"Montserrat";
+    src: url('{{ storage_path("fonts/Montserrat-Bold.ttf") }}') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+.container{
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 700px;
+    margin: 20% auto 10% auto;
+}
+
+.fecha{
+    text-align: center;
+}
+
+.label{
+    border: 1px solid black; 
+    margin-left: 50px; 
+    padding-left: 20px;
+    width: 200px;
+    display: inline-block;
+}
+.underline_obs{
+    border-bottom: 1px solid #000; 
+    padding-bottom: 2px; 
+    text-transform: lowercase;
+    margin: 0 5%;
+}
+
+.underline {
+    border-bottom: 1px solid #000; 
+    padding-bottom: 2px; 
+    display: inline; 
+    display: inline-block;
+    text-transform: lowercase;
+    
+  }
+
+#header{
+    text-align: center;
+}
+
+.imgheader_body{
+    float: left;
+    width: 3cm;
+  
+}
+.infoheader{
+    margin-top: -3cm;
+}
+#header_body_report{
+    position: fixed;
+    margin-top: -10.4%;
+    margin-left: -3%;
+    width: 110%;
+    background-color: rgb(58, 131, 195);
+}
+#footer{
+    position: fixed;
+    bottom: -1.5cm;
+    margin: 0;
+    left: 0cm;
+    margin-left: -2%;
+    width: 110%;
+    background-color: rgb(58, 131, 195);
+}
+
+#header_body{
+    margin-top: -113px;
+    background-color: rgb(58, 131, 195);
+}
+
+.infoheader_body{
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: -50px;
+}
+
+.textfooter{
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.hijo{
+    width: 2cm;
+    height: 1cm;
+    margin: 0.2cm;
+    background-color: yellow;
+}
+
+.light {
+    font-family: "Montserrat";
+    font-weight:100;
+}
+.regular {
+    font-family: "Montserrat";
+    font-weight:400;
+}
+.bold{
+    font-family: "Montserrat";
+    font-weight:700;
+}
+
+.main{
+    display: flex;
+}
+
+.dato {
+    display: flex;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.dato label {
+    font-weight: bold;
+}
+
+.dato-contenido {
+    /* width: 40%; */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 15px;
+    display: inline;
+}
+
+.tabla {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.encabezado {
+    background-color: rgb(138, 188, 233);
+    padding: 10px;
+    text-align: left;
+}
+
+.fila {
+    padding: 10px;
+    border-bottom: 1px solid rgb(100, 100, 241);
+}
+.yellow {
+    background-color: rgb(241, 241, 109);
+    border-radius: 5px;
+    color:black;
+}
+.red {
+    background-color: rgb(241, 123, 123);
+    border-radius: 5px;
+    color:black;
+}
+.blue {
+    background-color: rgb(102, 102, 243);
+    border-radius: 5px;
+    color:black;
+}
+.green {
+    background-color: rgb(95, 243, 95);
+    border-radius: 5px;
+    color:black;
+}
+.sky {
+    background-color: rgb(148, 178, 225);
+    border-radius: 5px;
+    color:black;
+}
+
+
+/*Para las firmar digitales*/
+.info {
+    display: inline-block;
+    margin-left: 13%;
+    margin-right: 3%; /* Ajusta este valor para controlar la separación entre elementos */
+    vertical-align: top; /* Alinea los elementos en la parte superior */
+}

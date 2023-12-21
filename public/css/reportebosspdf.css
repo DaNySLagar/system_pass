@@ -1,0 +1,174 @@
+@page {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica;
+    font-size: 12px;
+}
+
+body{       /* afecta a todas las etiquetas etiqutea body */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(255, 255, 255);
+    min-height: 100vh;
+ 
+
+}
+
+table{
+    background: rgb(255, 255, 255);
+    width: 85%;
+    margin: auto;
+    margin-bottom: 2px;
+    border-radius: 3px;
+    /*border: 0.3px solid black;*/
+    /*padding: 12px;    
+    border: 0.5px solid rgba(63, 63, 66, 0.205);*/
+}
+
+thead{       /* afecta a todas las etiquetas etiqutea body */
+
+    height: 50px;
+    color: rgb(0, 37, 64);
+    margin-bottom: 20px;
+     
+}
+
+tr th{
+    text-align: left; /* Alinea el texto a la izquierda */
+    border-bottom: 0.3px solid black;    
+}
+
+td{
+    text-align: left; /* Alinea el texto a la izquierda */ 
+    /*border-bottom: 0.5px solid rgb(210, 210, 210);*/
+    border-bottom: 0.3px solid black;   
+}
+
+#trhead{
+    height: 100px;
+}
+
+.hcuatro{
+    display: inline;
+    text-transform: uppercase;
+
+}
+.resultadoFinal{
+    text-transform: uppercase;
+    text-align: right;
+
+    width: 93%;
+
+
+}
+.resultadoFinalTexto{
+    text-transform: uppercase;
+    text-align: right;
+    font-weight: normal;
+
+}
+
+#tiemposPorUsuario{
+    margin: auto;
+    background: rgb(255, 255, 255);
+    font-weight: normal !important;
+    font-weight: normal;
+}
+.tiemposPorUsuario{
+    width: 85%;
+    margin: auto;
+    background: rgb(255, 255, 255);
+    font-weight: normal !important;
+    font-weight: normal;
+    margin-bottom: 8px;
+}
+#h4ncard{
+    margin-right: 10px;
+    color:rgb(47, 117, 181);
+}
+
+#fechaActual{
+    text-align: right;
+    margin: auto;
+    /*background: rgb(0, 0, 0);*/
+    width: 100%;
+    margin-top: px;
+    
+
+}
+
+#divdatos{
+    width: 85%;
+    margin: auto;
+    background: rgb(255, 255, 255);
+}
+
+#datosjefetitulos{
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: none;
+}
+
+.text-grande{
+    font-size: 12px;
+    text-align: center;
+    text-transform: none;
+}
+#h4name{
+    color:rgb(0, 112, 192);
+}
+
+#iddatosjefe{
+    width: 85%;
+    margin: auto;
+    text-transform: lowercase;
+    margin-bottom: 10;
+    margin-top: 50px;
+}
+.datosjefetitulos{
+    display: inline;
+    font-weight: normal;
+}
+
+
+.imgheader_body{
+    float: left;
+    width: 2cm;
+    height: 1.8cm;
+    border: 1px solid rgb(174, 174, 174);
+  
+}
+#header_body_report{    
+
+    width: 100%;
+    height: 60px;
+    background-color: rgb(99, 144, 183);
+}
+.infoheader_body{
+    text-align: center;
+    text-transform: uppercase;
+
+    height: 60px; /* Establece la altura del contenedor */
+    width: 100%;
+    line-height: 20px; /* Ajusta la línea de altura para centrar verticalmente el texto */
+    text-align: center; /* Alinea horizontalmente el texto al centro (opcional) */
+}
+
+#container{ /* afecta solo a los ids llamados containerr */
+
+}
+
+.article{   /* afecta solo a los class llamados containerr */
+
+}
